@@ -11,6 +11,7 @@ Truck::Truck(int t)
 	Truck::towingCapacity = t;
 };
 
+// Inherited Constructor from Vehicle class.
 Truck::Truck(int t, string m, int y)
 {
 	Truck::towingCapacity = t;

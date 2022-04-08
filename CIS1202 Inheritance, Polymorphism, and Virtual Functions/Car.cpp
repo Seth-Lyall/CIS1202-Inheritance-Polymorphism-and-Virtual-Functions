@@ -11,6 +11,7 @@ Car::Car(int d)
 	Car::doors = d;
 };
 
+// Inherited Constructor from Vehicle class.
 Car::Car(int d, string m, int y)
 {
 	Car::doors = d;
